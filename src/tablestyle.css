@@ -1,0 +1,17 @@
+.table-row-cell:empty {
+    -fx-background-color: #f4f4f4;
+}
+
+.table-view .scroll-bar * {
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
+.table-cell:selected {
+    -fx-background-color: white;
+}
